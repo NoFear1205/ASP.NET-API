@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.ViewModel
+namespace DomainLayer.ViewModel.Category
 {
     public class CategoryRequestDTO
     {

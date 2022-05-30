@@ -1,12 +1,13 @@
 ﻿using DomainLayer.Model;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.DbContextLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepositoryLayer
+namespace RepositoryLayer.Implentation
 {
     public class UserRoleRepository : IUserRoleRepository
     {
@@ -17,7 +18,7 @@ namespace RepositoryLayer
         }
         public List<User_Role> GetByUserId(int id)
         {
-           var result = _context.User_Role.Include(c => c.Roles).Where(c=>c.UserID==id).ToList();
+            var result = _context.User_Role.Include(c => c.Roles).Where(c => c.UserID == id).ToList();
             return result;
         }
         public bool Add(User_Role model)

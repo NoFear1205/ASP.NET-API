@@ -1,5 +1,6 @@
 ﻿using DomainLayer.Model;
 using DomainLayer.ViewModel.User;
+using RepositoryLayer.DbContextLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
