@@ -21,8 +21,4 @@
     <Folder Include="Extension\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
-  </ItemGroup>
-
 </Project>

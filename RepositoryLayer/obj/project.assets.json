@@ -656,20 +656,6 @@
             "rid": "win"
           }
         }
-      },
-      "DomainLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.4"
-        },
-        "compile": {
-          "bin/placeholder/DomainLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DomainLayer.dll": {}
-        }
       }
     }
   },
@@ -1919,17 +1905,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "DomainLayer/1.0.0": {
-      "type": "project",
-      "path": "../DomainLayer/DomainLayer.csproj",
-      "msbuildProject": "../DomainLayer/DomainLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "DomainLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
@@ -1962,11 +1942,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\haqua\\OneDrive\\Máy tính\\ASP.Net-API\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\haqua\\OneDrive\\Máy tính\\ASP.Net-API\\DomainLayer\\DomainLayer.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

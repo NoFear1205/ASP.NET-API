@@ -12,9 +12,4 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.18.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
-    <ProjectReference Include="..\RepositoryLayer\RepositoryLayer.csproj" />
-  </ItemGroup>
-
 </Project>
